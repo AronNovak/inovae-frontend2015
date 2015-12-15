@@ -1,3 +1,4 @@
+# Drupal basis
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 
@@ -14,7 +15,6 @@ robots.txt
 /LICENSE.txt
 /MAINTAINERS.txt
 /UPGRADE.txt
-/README.txt
 sites/all/README.txt
 sites/all/modules/README.txt
 sites/all/themes/README.txt
@@ -34,3 +34,14 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+#phpstorm files
+.idea
+#
+##komodo edit
+*.komodoproject
+*.komodotools
+
+# patch files
+*.rej
+*.orig
